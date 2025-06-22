@@ -1,0 +1,13 @@
+class Login:
+    AGE_CONFIRMATION = '//XCUIElementTypeButton[@name="I AM 19+"]'
+    LOGIN_ENTER = '//XCUIElementTypeButton[@name="LOG IN"]'
+    USER_EMAIL = '//XCUIElementTypeTextField[@name="EMAIL ADDRESS"]'
+    PASSWORD = '//XCUIElementTypeSecureTextField[@name="PASSWORD"]'
+    LOGIN = '//XCUIElementTypeButton[@name="LOGIN"]'
+    PIN1 = '(//XCUIElementTypeTextField[@value="--"])[1]'
+    PIN2 = '(//XCUIElementTypeTextField[@value="--"])[2]'
+    PIN3 = '(//XCUIElementTypeTextField[@value="--"])[3]'
+    PIN4 = '(//XCUIElementTypeTextField[@value="--"])[4]'
+    CONFIRM_PIN = '//XCUIElementTypeButton[@name="CONFIRM PIN"]'
+    CONTINUE = '//XCUIElementTypeButton[@name="CONTINUE"]'
+    NEXT_PAGE = '//XCUIElementTypeButton[@name="NEXT"]'

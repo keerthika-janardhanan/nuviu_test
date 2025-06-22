@@ -1,0 +1,12 @@
+{
+  "platformName": "iOS",
+  "platformVersion": "18.5",
+  "appium:deviceName": "iPhone",
+  "appium:automationName": "XCUITest",
+  "appium:udid": "00008020-000B79E90223002E",
+  "appium:xcodeOrgId": "4VCBUA2A64",
+  "appium:xcodeSigningId": "iPhone Developer",
+  "appium:budleId": "com.nuviu",
+  "appium:updatedWDABundleId": "com.vuse.testApp",
+  "appium:noRest": false
+}
