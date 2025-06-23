@@ -15,6 +15,7 @@ from test.common_util import scroll_until_visible
 
 web_page = "https://my.vuse.com/dashboard#device"
 
+
 def switch_to_webview(driver):
     """Switch to the first available WEBVIEW context."""
     contexts = driver.contexts
