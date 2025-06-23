@@ -64,6 +64,7 @@ def main():
         wait.until(EC.presence_of_element_located((AppiumBy.CLASS_NAME, CountrySelection.SEARCH_BAR))).send_keys(web_page)
         driver.find_element(AppiumBy.ACCESSIBILITY_ID, "Go").click()
 
+
     # Select Canada
     wait.until(EC.element_to_be_clickable(
         (AppiumBy.XPATH, CountrySelection.COUNTRY_SELECTION))).click()
